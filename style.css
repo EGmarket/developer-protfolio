@@ -2,3 +2,53 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+h1 {
+    font-size: 50px;
+}
+
+.orange {
+    color: orange;
+}
+
+section {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+p {
+    text-indent: auto;
+    margin-right: 5%;
+    margin-bottom: 40px;
+}
+
+.top-banner {
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button-link {
+    text-decoration: none;
+    background-image: linear-gradient(red, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+.dream-big {
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
